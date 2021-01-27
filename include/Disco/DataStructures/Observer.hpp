@@ -1,6 +1,6 @@
 #include <memory>
 
-namespace GameEngine {
+namespace Disco {
 namespace DataStructures {
     template <typename T>
     class Observer {

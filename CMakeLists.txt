@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(GameEngine)
+project(Disco)
 
-set(PROJECT_NAME GameEngine)
+set(PROJECT_NAME Disco)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
 # Add source files

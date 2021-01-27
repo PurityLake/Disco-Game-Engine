@@ -1,12 +1,12 @@
 #include <iostream>
 #include <GLFW/glfw3.h>
 
-#include "GameEngine/Game.hpp"
+#include "Disco/Game.hpp"
 
 using namespace std;
 
 int main() {
-    GameEngine::Game game("GameEngine", 800, 600);
+    Disco::Game game("Disco", 800, 600);
 
     game.Run();
 

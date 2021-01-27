@@ -3,7 +3,7 @@
 #include <exception>
 #include <string>
 
-namespace GameEngine {
+namespace Disco {
     struct GameEngineException : public std::exception {
         std::string message;
         

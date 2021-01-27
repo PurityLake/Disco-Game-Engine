@@ -1,9 +1,9 @@
-#include "GameEngine/Game.hpp"
-#include "GameEngine/Exceptions.hpp"
+#include "Disco/Game.hpp"
+#include "Disco/Exceptions.hpp"
 
 #include <iostream>
 
-using namespace GameEngine;
+using namespace Disco;
 
 Game::Game() : Game("Game") { }
 Game::Game(std::string title) : Game(title, 800, 600) { }
@@ -36,7 +36,6 @@ void Game::Run() {
 }
 
 void Game::Render(double delta) {
-    std::cout << delta << '\n';
     window->Clear();
 }
 void Game::Update(double delta) {

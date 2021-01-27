@@ -2,7 +2,7 @@
 
 #include "Observer.hpp"
 
-namespace GameEngine {
+namespace Disco {
 namespace DataStructures {
     template <typename T>
     class Observerable {

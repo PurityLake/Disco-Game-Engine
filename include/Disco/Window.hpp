@@ -4,10 +4,10 @@
 
 #include <GLFW/glfw3.h>
 
-#include "Color.hpp"
-#include "Exceptions.hpp"
+#include "Disco/Color.hpp"
+#include "Disco/Exceptions.hpp"
 
-namespace GameEngine {
+namespace Disco {
     class Window {
     private:
         GLFWwindow *window;

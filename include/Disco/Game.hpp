@@ -9,7 +9,7 @@
 
 #include "Window.hpp"
 
-namespace GameEngine {
+namespace Disco {
     class Game {
     private:
         std::unique_ptr<Window> window;
